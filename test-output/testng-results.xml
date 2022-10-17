@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="11" total="14" passed="0" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-15T23:23:13 IST" name="Suite" finished-at="2022-10-15T23:23:14 IST" duration-ms="224">
+    <groups>
+    </groups>
+    <test started-at="2022-10-15T23:23:13 IST" name="Test" finished-at="2022-10-15T23:23:14 IST" duration-ms="224">
+      <class name="com.crm.organization.CreateOrganizationTest">
+        <test-method is-config="true" signature="BC(java.lang.String)[pri:0, instance:com.crm.organization.CreateOrganizationTest@194bcebf]" started-at="2022-10-15T23:23:13 IST" name="BC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665856393952" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in E:\java\oop\com.crm.farmework\regionalregrtestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in E:\java\oop\com.crm.farmework\regionalregrtestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:com.crm.organization.CreateOrganizationTest@194bcebf]" started-at="2022-10-15T23:23:14 IST" name="BM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665856394021" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="modifiedOrg()[pri:0, instance:com.crm.organization.CreateOrganizationTest@194bcebf]" started-at="2022-10-15T23:23:14 IST" name="modifiedOrg" finished-at="2022-10-15T23:23:14 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in E:\java\oop\com.crm.farmework\regionalregrtestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in E:\java\oop\com.crm.farmework\regionalregrtestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifiedOrg -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:com.crm.organization.CreateOrganizationTest@194bcebf]" started-at="2022-10-15T23:23:14 IST" name="AM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665856394044" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:com.crm.organization.CreateOrganizationTest@194bcebf]" started-at="2022-10-15T23:23:14 IST" name="AC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665856394056" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+      </class> <!-- com.crm.organization.CreateOrganizationTest -->
+      <class name="com.crm.product.CreateProductTest">
+        <test-method is-config="true" signature="BS()[pri:0, instance:com.crm.product.CreateProductTest@57cf54e1]" started-at="2022-10-15T23:23:13 IST" name="BS" finished-at="2022-10-15T23:23:13 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="BT()[pri:0, instance:com.crm.product.CreateProductTest@57cf54e1]" started-at="2022-10-15T23:23:13 IST" name="BT" finished-at="2022-10-15T23:23:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BT -->
+        <test-method is-config="true" signature="BC(java.lang.String)[pri:0, instance:com.crm.product.CreateProductTest@57cf54e1]" started-at="2022-10-15T23:23:13 IST" name="BC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665856393950" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in E:\java\oop\com.crm.farmework\regionalregrtestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in E:\java\oop\com.crm.farmework\regionalregrtestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:com.crm.product.CreateProductTest@57cf54e1]" started-at="2022-10-15T23:23:14 IST" name="BM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665856394021" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="modifiyProduct()[pri:0, instance:com.crm.product.CreateProductTest@57cf54e1]" started-at="2022-10-15T23:23:14 IST" name="modifiyProduct" finished-at="2022-10-15T23:23:14 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in E:\java\oop\com.crm.farmework\regionalregrtestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in E:\java\oop\com.crm.farmework\regionalregrtestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifiyProduct -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:com.crm.product.CreateProductTest@57cf54e1]" started-at="2022-10-15T23:23:14 IST" name="AM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665856394066" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:com.crm.product.CreateProductTest@57cf54e1]" started-at="2022-10-15T23:23:14 IST" name="AC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665856394080" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="AT()[pri:0, instance:com.crm.product.CreateProductTest@57cf54e1]" started-at="2022-10-15T23:23:14 IST" name="AT" finished-at="2022-10-15T23:23:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+        <test-method is-config="true" signature="AS()[pri:0, instance:com.crm.product.CreateProductTest@57cf54e1]" started-at="2022-10-15T23:23:14 IST" name="AS" finished-at="2022-10-15T23:23:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- com.crm.product.CreateProductTest -->
+      <class name="com.crm.product.DeleteProductTest">
+        <test-method is-config="true" signature="BC(java.lang.String)[pri:0, instance:com.crm.product.DeleteProductTest@3c7f66c4]" started-at="2022-10-15T23:23:13 IST" name="BC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665856393951" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in E:\java\oop\com.crm.farmework\regionalregrtestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in E:\java\oop\com.crm.farmework\regionalregrtestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:com.crm.product.DeleteProductTest@3c7f66c4]" started-at="2022-10-15T23:23:14 IST" name="BM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665856394021" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="recoverProduct()[pri:0, instance:com.crm.product.DeleteProductTest@3c7f66c4]" started-at="2022-10-15T23:23:14 IST" name="recoverProduct" finished-at="2022-10-15T23:23:14 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in E:\java\oop\com.crm.farmework\regionalregrtestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in E:\java\oop\com.crm.farmework\regionalregrtestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recoverProduct -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:com.crm.product.DeleteProductTest@3c7f66c4]" started-at="2022-10-15T23:23:14 IST" name="AM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665856394061" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:com.crm.product.DeleteProductTest@3c7f66c4]" started-at="2022-10-15T23:23:14 IST" name="AC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665856394071" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+      </class> <!-- com.crm.product.DeleteProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
