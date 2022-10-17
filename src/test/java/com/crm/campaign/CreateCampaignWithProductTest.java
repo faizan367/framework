@@ -114,6 +114,11 @@ driver.findElement(By.xpath("//img[@src='themes/softed/images/user.PNG']")).clic
 driver.findElement(By.linkText("Sign Out")).click();
 		
 	}
-	
+	public int add() {
+		int a=10;
+		int b=20;
+		int c=a+b;
+		return c;
+	}
 
 }
